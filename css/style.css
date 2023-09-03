@@ -3,13 +3,16 @@
     --color2: #52339a;
 }
 
-footer,
 section {
     padding: 100px 0;
 }
 
 header {
     padding: 200px 0;
+}
+
+footer {
+    padding: 40px 0;
 }
 
 header,
@@ -167,6 +170,13 @@ footer {
 
 .carousel-indicators {
     bottom: -40px;
+}
+
+/* Footer */
+
+.itd-btn-footer {
+border-radius: 50%;
+padding: 12px;
 }
 
 /* Colors */

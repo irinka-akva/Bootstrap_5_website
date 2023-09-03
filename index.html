@@ -737,9 +737,8 @@
                                         </p>
                                         <p>Планирую продолжить свое обучение верстке и фронтенд-разработке на других
                                             курсах у Исмаила. Спасибо большое за такой полезный и интересный курс! Буду
-                                            рекоммендовать его всем своим знакомым, кто захочет обучаться верстке.
+                                            рекоммендовать его всем своим знакомым, кто захочет обучаться верстке.</p>
                                         <div class=""></div>
-                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -764,14 +763,15 @@
                     <p>Обучающий курс по изучению языка гипертекстовой разметки HTML и каскадных таблиц стилей CSS от
                         автора образовательного канала ITDoctor. Это практический видеокурс: в каждой главе
                         теоретический материал будет закрепляться множеством наглядных примеров кода.</p>
-                        <ul class="mb-5">
-                            <li>35 практических уроков</li>
-                            <li>Продолжительность 5 часов</li>
-                            <li>Готовые примеры кода</li>
-                            <li>Никаких ограничений по времени</li>
-                            <li>7 домашних заданий</li>
-                        </ul>
-                        <button class="btn btn-itd btn-lg text-uppercase" data-bs-toggle="modal" data-bs-target="#Modal2">Купить</button>
+                    <ul class="mb-5">
+                        <li>35 практических уроков</li>
+                        <li>Продолжительность 5 часов</li>
+                        <li>Готовые примеры кода</li>
+                        <li>Никаких ограничений по времени</li>
+                        <li>7 домашних заданий</li>
+                    </ul>
+                    <button class="btn btn-itd btn-lg text-uppercase" data-bs-toggle="modal"
+                        data-bs-target="#Modal2">Купить</button>
                 </div>
             </div>
         </div>
@@ -779,7 +779,18 @@
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-12"></div>
+                <div class="col-12 text-center">
+                    <a class="btn btn-outline-light itd-btn-footer" target="_blank"
+                        href="https://www.youtube.com/c/ITDoctor"><i class="icon-youtube-play"></i></a>
+                    <a class="btn btn-outline-light itd-btn-footer" target="_blank"
+                        href="https://t.me/itdoctorstudio"><i class="icon-paper-plane"></i></a>
+                    <a class="btn btn-outline-light itd-btn-footer" target="_blank"
+                        href="https://vk.com/itdoctorstudio"><i class="icon-vkontakte"></i></a>
+                    <a class="btn btn-outline-light itd-btn-footer" target="_blank"
+                        href="https://instagram.com/ismail_asanovich/"><i class="icon-instagram"></i></a>
+                    <a class="btn btn-outline-light itd-btn-footer" target="_blank"
+                        href="https://github.com/morphIsmail"><i class="icon-github-circled"></i></a>
+                </div>
             </div>
         </div>
     </footer>
@@ -802,38 +813,41 @@
     </div>
 
     <!-- Modal-2 -->
-<div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="Modal2Label">Заполните форму для покупки курса:</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Modal2Label">Заполните форму для покупки курса:</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="InputName1" class="form-label">ФИО</label>
+                            <input type="text" class="form-control" id="InputName1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp"
+                                required>
+                            <div id="emailHelp" class="form-text">Мы не передаем полученные данные сторонним лицам.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="InputPassword1" class="form-label">Номер телефона</label>
+                            <input type="tel" class="form-control" id="InputPassword1" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="Check1" required>
+                            <label class="form-check-label" for="Check1">Согласие на обработку персональных
+                                данных</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить данные для покупки</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                    <label for="InputName1" class="form-label">ФИО</label>
-                    <input type="text" class="form-control" id="InputName1" aria-describedby="name" required>
-                  </div>
-                <div class="mb-3">
-                  <label for="InputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" required>
-                  <div id="emailHelp" class="form-text">Мы не передаем полученные данные сторонним лицам.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="InputPassword1" class="form-label">Номер телефона</label>
-                  <input type="tel" class="form-control" id="InputPassword1" required>
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="Check1" required>
-                  <label class="form-check-label" for="Check1">Согласие на обработку персональных данных</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Отправить данные для покупки</button>
-              </form>
-        </div>
-      </div>
     </div>
-  </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
